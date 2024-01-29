@@ -1,0 +1,35 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+#subtitle {
+    color: gray;
+}
+
+#change-grid-btn {
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: mediumpurple;
+    padding: 8px 24px;
+    margin-bottom: 24px;
+    font-size: 24px;
+}
+
+.grid-container {
+    border: 4px solid black;
+    margin: auto;
+    width: 800px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell {
+    border: 2px dotted blue;
+}
