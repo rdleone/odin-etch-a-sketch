@@ -8,11 +8,38 @@
     <title>Etch-a-Sketch</title>
 </head>
 <body>
-    <h1 id="title">Etch-a-Sketch</h1>
-    <h4 id="subtitle">Robert Leone Jr.</h4>
-    <button id="change-grid-btn">Change Grid Dimensions</button>
-    <div class="grid-container">
-
+    <div class="header">
+        <h1 id="title">Etch-a-Sketch</h1>
+        <h4 id="subtitle">Robert Leone Jr.</h4>
     </div>
+    <div class="content">
+        <h2 id="options-text">Options</h3>
+        <div class="options-container">
+            <div class="option">
+                <p>Normal Mode</p>
+                <label class="switch">
+                    <input name="mode" id="normal" type="radio" checked="true">
+                    <!-- <span class="slider round"></span> -->
+                </label>
+            </div>
+            <div class="option">
+                <p>Color Mode</p>
+                <label class="switch">
+                    <input name="mode" id="color" type="radio">
+                    <!-- <span class="slider round"></span> -->
+                </label>
+            </div>
+            <div class="option">
+                <p>Fade Mode</p>
+                <label class="switch">
+                    <input name="mode" id="fade" type="radio">
+                    <!-- <span class="slider round"></span> -->
+                </label>
+            </div>
+        </div>
+        <button id="change-grid-btn">Change Grid Dimensions</button>
+        <div class="grid-container"></div>
+    </div>
+    
 </body>
 </html>
